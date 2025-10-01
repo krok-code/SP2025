@@ -1,0 +1,22 @@
+Mainprogram
+
+Data:
+    Int16_t aaa1, bbb2, cyc1, cyc2, xva3;
+
+Start
+
+  Input(aaa1)
+  Input(bbb2)
+
+  For cyc1 := aaa1 To bbb2 Do
+      Output(cyc1 Mul cyc1)
+
+  xva3 := 0
+
+  For cyc1 := 1 To aaa1 Do
+      For cyc2 := 1 To bbb2 Do
+          xva3 := xva3 + 1
+
+  Output(xva3)
+
+End
