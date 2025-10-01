@@ -14,7 +14,7 @@ Start
   } Else If (bbb2 >= aaa1 && bbb2 >= ccc3) {
       max4 := bbb2
   } Else {
-      max4 := ccc3
+      ccc3 := max4
   }
   Output(max4)
 
