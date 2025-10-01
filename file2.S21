@@ -30,7 +30,7 @@ Start
       Output(0)
   }
 
-  If (aaa1 >= (bbb2 + ccc3)) {
+  If !!(aaa1 >= (bbb2 + ccc3)) {
       Output(10)
   } Else {
       Output(0)
