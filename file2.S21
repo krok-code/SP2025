@@ -1,6 +1,6 @@
 Mainprogram
 
-Data:
+Data
     Int16_t aaa1, bbb2, ccc3, max4;
 
 Start
