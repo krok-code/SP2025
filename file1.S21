@@ -1,6 +1,6 @@
 Mainprogram
 
-Data:
+Data
     Int16_t aaa1, bbb2, xxx3, yyy4;
 
 Start
@@ -14,8 +14,8 @@ Start
   Output(aaa1 Div bbb2)
   Output(aaa1 Mod bbb2)
 
-  xxx3 := (aaa1 - bbb2) Mul 10 + (aaa1 + bbb2) Div 10
-  yyy4 := xxx3 + xxx3 Mod 10
+  (aaa1 - bbb2) Mul 10 + (aaa1 + bbb2) Div 10 =: xxx3 
+  yyy4 =: xxx3 + xxx3 Mod 10
 
   Output(xxx3)
   Output(yyy4)
