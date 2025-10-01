@@ -1,0 +1,39 @@
+Mainprogram
+
+Data:
+    Int16_t aaa1, bbb2, ccc3, max4;
+
+Start
+
+  Input(aaa1)
+  Input(bbb2)
+  Input(ccc3)
+
+  If (aaa1 >= bbb2 && aaa1 >= ccc3) {
+      max4 := aaa1
+  } Else If (bbb2 >= aaa1 && bbb2 >= ccc3) {
+      max4 := bbb2
+  } Else {
+      max4 := ccc3
+  }
+  Output(max4)
+
+  If (aaa1 Eg bbb2 && aaa1 Eg ccc3 && bbb2 Eg ccc3) {
+      Output(1)
+  } Else {
+      Output(0)
+  }
+
+  If (!!(aaa1 >= 0) || !!(bbb2 >= 0) || !!(ccc3 >= 0)) {
+      Output(-1)
+  } Else {
+      Output(0)
+  }
+
+  If (aaa1 >= (bbb2 + ccc3)) {
+      Output(10)
+  } Else {
+      Output(0)
+  }
+
+End
