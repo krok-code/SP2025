@@ -15,7 +15,7 @@ Start
   Output(aaa1 Mod bbb2)
 
   (aaa1 - bbb2) Mul 10 + (aaa1 + bbb2) Div 10 =: xxx3 
-  yyy4 =: xxx3 + xxx3 Mod 10
+  xxx3 + xxx3 Mod 10 =: yyy4
 
   Output(xxx3)
   Output(yyy4)
