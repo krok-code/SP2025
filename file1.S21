@@ -1,23 +1,20 @@
 Mainprogram
-
 Data
-    Int16_t aaa1, bbb2, xxx3, yyy4;
+    Int16_t aaa0, bbb1, xxx2, yyy3;
 
 Start
+  Input aaa0;
+  Input bbb1;
 
-  Input(aaa1)
-  Input(bbb2)
+  Output aaa0 + bbb1;
+  Output aaa0 - bbb1;
+  Output aaa0 Mul bbb1;
+  Output aaa0 Div bbb1;
+  Output aaa0 Mod bbb1;
 
-  Output(aaa1 + bbb2)
-  Output(aaa1 - bbb2)
-  Output(aaa1 Mul bbb2)
-  Output(aaa1 Div bbb2)
-  Output(aaa1 Mod bbb2)
+  aaa0 - bbb1 Mul 10 + aaa0 + bbb1 Div 10 =: xxx2;
+  xxx2 + xxx2 Mod 10 =: yyy3;
 
-  (aaa1 - bbb2) Mul 10 + (aaa1 + bbb2) Div 10 =: xxx3 
-  xxx3 + xxx3 Mod 10 =: yyy4
-
-  Output(xxx3)
-  Output(yyy4)
-
+  Output xxx2;
+  Output yyy3;
 End
