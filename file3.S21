@@ -1,22 +1,49 @@
 Mainprogram
-
 Data
-    Int16_t aaa1, bbb2, cyc1, cyc2, xva3;
+    Int16_t aaa0, bbb1, cyc2, cyc3, xva4;
 
 Start
+  Input aaa0;
+  Input bbb1;
 
-  Input(aaa1)
-  Input(bbb2)
+  aaa0 =: cyc2;
 
-  For cyc1 := aaa1 To bbb2 Do
-      Output(cyc1 Mul cyc1)
+lcl0:
+  If (cyc2 >= bbb1){
+    Goto ede2
+  }
 
-  xva3 := 0
+  Output (cyc2 Mul cyc3)
+  cyc2 + 1 =: cyc2
+  
+  Goto lcl0
 
-  For cyc1 := 1 To aaa1 Do
-      For cyc2 := 1 To bbb2 Do
-          xva3 := xva3 + 1
+ede2:
+  0 =: xva4;
+  1 =: cyc2;
 
-  Output(xva3)
+lal0:
+  If (cyc2 >= aaa0) {
+    Goto ede0
+  }
+
+  1 =: cyc3;
+
+lbl0:
+  If (cyc3 <= bbb1) {
+    Goto ede1
+  }
+
+  xva4 + 1 =: xva4;
+  cyc3 + 1 =: cyc3;
+
+  Goto lbl0
+
+ede1: 
+  cyc2 + 1 =: cyc2
+  Goto lal0
+
+ede0:
+  Output xva4;
 
 End
