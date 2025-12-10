@@ -8,11 +8,11 @@ Start
   Input ccc2;
 
   If (aaa0 >= bbb1) && (aaa0 >= ccc2) {
-      mmm3 := aaa0
+      mmm3 =: aaa0
   } Else If (bbb1 >= aaa0) && (bbb1 >= ccc2) {
-      mmm3 := bbb1
+      mmm3 =: bbb1
   } Else {
-      mmm3 := ccc2
+      mmm3 =: ccc2
   }
   Output(mmm3)
 
